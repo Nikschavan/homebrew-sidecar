@@ -1,12 +1,12 @@
 class Sidecar < Formula
   desc "Permission management sidecar for Claude Code CLI"
   homepage "https://github.com/Nikschavan/Sidecar"
-  version "0.0.3"
+  version "0.0.4"
   license "MIT"
 
   on_macos do
     url "https://github.com/Nikschavan/Sidecar/releases/download/v#{version}/sidecar"
-    sha256 "02ce4e0ab698e17f466a795491ec14cf0cea7ccf5ea39a574ed1a9f1771ab0ef"
+    sha256 "c5c313fd8aa8d57fee8cb6dc9062e1bbd70f00ebe5adfe4588bee51b4af584dd"
   end
 
   def install
